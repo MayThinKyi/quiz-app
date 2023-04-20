@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Poppins", sans-serif;
+}
+.Quiz {
+  margin: auto;
+  width: 350px;
+  height: auto;
+}
+.quizBtn {
+  color: #000;
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: 80%;
+  background: #e2e2e2;
+  margin-bottom: 13px;
+}
+.activeBtn {
+  border: 3px solid rgb(23, 139, 23);
+}
+@media screen and (max-width: 360px) {
+  .Quiz {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .Quiz {
+    width: 280px;
+  }
+}

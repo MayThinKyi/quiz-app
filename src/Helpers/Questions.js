@@ -1,0 +1,86 @@
+export const questions = [
+  {
+    prompt: "What is React.js?",
+    optionA: "Open-source JavaScript back-end library",
+    optionB: "JavaScript front-end library to create a database",
+    optionC: "Free and open-source JavaScript front-end library",
+    optionD: "None of the mentioned",
+    answer: "C",
+  },
+  {
+    prompt:
+      "Which of the following acts as the input of a class-based component?",
+    optionA: "Class",
+    optionB: "Props",
+    optionC: "Factory",
+    optionD: "None of the mentioned",
+    answer: "B",
+  },
+  {
+    prompt: "React.js is written in which of the following language?",
+    optionA: "C",
+    optionB: "C++",
+    optionC: "JavaScript",
+    optionD: "Java",
+    answer: "C",
+  },
+  {
+    prompt: " How many elements can a valid react component return?",
+    optionA: " React doesn’t return element",
+    optionB: "1 Element",
+    optionC: "More than 1 element",
+    optionD: "None of the mentioned",
+    answer: "B",
+  },
+  {
+    prompt: "In which of the following directory React Components are saved?",
+    optionA: "Inside js/components/",
+    optionB: "Inside components/js/",
+    optionC: "Inside vendor/js/components/",
+    optionD: "Inside vendor/components/",
+    answer: "A",
+  },
+  {
+    prompt:
+      "Which of the following command is used to Install create-react-app?",
+    optionA: "npm install create-react-app",
+    optionB: "npm install -f create-react-app",
+    optionC: "npm install -g create-react-app",
+    optionD: "install -g create-react-app",
+    answer: "C",
+  },
+  {
+    prompt:
+      " In which condition is the React.js Lifecycle method static getDerivedSateFromProps(props, state) is called?",
+    optionA: " When the state of the component is updated",
+    optionB: "When a component is created for the first time",
+    optionC: "Both of the mentioned",
+    optionD: "None of the mentioned",
+    answer: "C",
+  },
+  {
+    prompt: "Which of the following is method is not a part of ReactDOM?",
+    optionA: "ReactDOM.hydrate()",
+    optionB: "ReactDOM.destroy()",
+    optionC: "ReactDOM.createPortal()",
+    optionD: "All of the mentioned",
+    answer: "B",
+  },
+  {
+    prompt: "Which of the following is correct about prop in react?",
+    optionA: "Can be changed inside another component",
+    optionB: "Can be changed inside the component",
+    optionC: "Cannot be changed in the component",
+    optionD: "All of the mentioned",
+    answer: "C",
+  },
+  {
+    prompt:
+      " Which of the following is used to pass data to a component from outside in React?",
+    optionA: "props",
+    optionB: "render with arguments",
+    optionC: "setState",
+    optionD: "PropTypes",
+    answer: "A",
+  },
+];
